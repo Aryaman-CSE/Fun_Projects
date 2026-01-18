@@ -10,11 +10,11 @@ Designed for beginners to practice Python basics
 
 Uses simple concepts like:
 
-User input
+-User input
 
-Variables
+-Variables
 
-String formatting (f-strings)
+-String formatting (f-strings)
 
 Runs entirely in the terminal/command line
 
