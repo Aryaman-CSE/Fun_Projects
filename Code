@@ -1,0 +1,23 @@
+# Madlibs Game – Horror Edition
+print("Welcome to the Madlibs Horror Game!")
+print("Enter the words carefully... the story awaits.\n")
+
+adjective_1 = input("Please enter an adjective (a descriptive word): --- ")
+noun_1 = input("Please enter a noun (a person, place, animal, or thing): --- ")
+adjective_2 = input("Please enter another adjective: --- ")
+verb_1 = input("Please enter a verb (action word): --- ")
+adjective_3 = input("Please enter another adjective: --- ")
+verb_2 = input("Please enter another verb: --- ")
+noun_2 = input("Please enter another noun: --- ")
+adjective_4 = input("Please enter one last adjective: --- ")
+
+print("\n--- Your Horror Mad Libs Story ---\n")
+
+print(f"Tonight, I entered a {adjective_1} zoo under the pale moonlight.")
+print(f"Inside a broken cage, I saw a {noun_1}.")
+print(f"The {noun_1} looked extremely {adjective_2} and began to {verb_1} slowly.")
+print(f"A chilling sound echoed as it suddenly tried to {verb_2} toward a {noun_2}.")
+print(f"The air felt {adjective_3}, and my heart started pounding loudly.")
+print(f"Shadows moved around me, each one more {adjective_4} than the last.")
+print("I ran without looking back, knowing some places should never be visited at night.")
+print("To this day, I still hear those sounds whenever the lights go out...")
