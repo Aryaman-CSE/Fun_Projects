@@ -19,3 +19,6 @@ String formatting (f-strings)
 Runs entirely in the terminal/command line
 
 No external libraries required
+
+Just copy and paste it into the complier of your choice and enjoy!!
+
