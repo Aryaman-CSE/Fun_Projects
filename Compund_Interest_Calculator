@@ -1,1 +1,25 @@
 #compound interest calculator
+principle=0
+rate=0
+time=0
+
+while principle <=0:
+    principle=float(input("please enter the principle amount (has to be greater than 0)"))
+    if principle <=0:
+        print("inalvid amount entered please try again")
+    
+
+while rate <=0:
+    rate=float(input("please enter the rate amount (has to be greater than 0)"))
+    if rate <=0:
+        print("inalvid amount entered please try again")
+
+while time <=0:
+    time=int(input("please enter the time taken to repay (has to be greater than 0 and in years)"))
+    if time <=0:
+        print("inalvid time entered please try again")
+
+ 
+amount=principle* pow((1 + rate/100),time)  #could have used ** aswell for power :)
+
+print(f"The total amount to be repaid after {time} years is {amount:.2f} rupees")
