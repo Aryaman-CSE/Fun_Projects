@@ -6,13 +6,13 @@ time=0
 while principle <=0:
     principle=float(input("please enter the principle amount (has to be greater than 0)"))
     if principle <=0:
-        print("inalvid amount entered please try again")
+        print("inalvid principle amount entered please try again")
     
 
 while rate <=0:
     rate=float(input("please enter the rate amount (has to be greater than 0)"))
     if rate <=0:
-        print("inalvid amount entered please try again")
+        print("inalvid rate amount entered please try again")
 
 while time <=0:
     time=int(input("please enter the time taken to repay (has to be greater than 0 and in years)"))
