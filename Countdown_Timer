@@ -1,0 +1,10 @@
+#created a simple stop watch using loops that counts upto users input. #for forward counting remove reversed function at line 3
+
+====+====+====+====+====+====+====+====+====
+
+import time
+my_time=int(input("enter the time in seconds for countdown:---"))
+for i in reversed(range(1,my_time+1)):
+    print(i)
+    time.sleep(1)
+print("Time is up!!")
