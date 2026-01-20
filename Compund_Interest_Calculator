@@ -1,4 +1,8 @@
 #compound interest calculator
+
+#copy this code and passte it on the pyhton complier of your choice 
+
+
 principle=0
 rate=0
 time=0
